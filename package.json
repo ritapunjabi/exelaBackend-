@@ -1,0 +1,31 @@
+{
+  "name": "exela",
+  "version": "1.0.0",
+  "description": "Exela Hackathon Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "sequelize",
+    "postgresql",
+    "rest",
+    "one-to-many",
+    "association",
+    "api"
+  ],
+  "author": "rita",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "engines": {
+    "node": "16.13.1"
+  }
+}
