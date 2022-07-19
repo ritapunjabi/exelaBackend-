@@ -1,6 +1,6 @@
 
 module.exports = app => {
-    const bill = require("../controllers/bill.Controller.js");
+    const bill = require("../controllers/bill.Controller");
 
     var router = require("express").Router();
     //Create a new Tutorial
