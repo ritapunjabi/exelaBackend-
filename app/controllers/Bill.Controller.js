@@ -1,6 +1,5 @@
 const db = require("../models");
 const Bill = db.bills;
-const Op = db.Sequelize.Op;
 
 //Create and Save a new tutorial
 exports.createBill = (req, res) => {
